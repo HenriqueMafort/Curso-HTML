@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(48, 46, 46);
+    color: aliceblue;
+}
+h1{
+   text-align: center;
+   color: aliceblue;
+}
+
+a{
+    color: aliceblue;
+    font: normal 13pt italic ;
+}
+p{
+    font-style: italic;
+}
+
+div#imagens{
+    text-align: center;
+}
+div#texto{
+    text-align: center;
+}
