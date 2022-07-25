@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+Body{
+    background-image: linear-gradient(to bottom, #4FFFDC, #3FCCB0, #3D8577);
+    background-attachment: fixed;
+    
+}
+
+p{
+    text-align: justify;
+    font: normal 13pt arial;
+}
+main{
+    background-color: aliceblue;
+    border-radius: 10pt;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px 5px #5d757060;
+   
+}
+
+h1{
+    text-align: center;
+    color: #5D7570;
+    text-shadow: 1px 1px 2px #2e3b385b;
+}
+h2{
+    color: #5D7570;
+}
