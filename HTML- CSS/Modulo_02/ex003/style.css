@@ -76,7 +76,7 @@ margin: 8px;
 
 }
 
-/@media(max-width: 800px){
+@media(max-width: 800px){
     .nav-list{
         position: absolute;
         top: 8vh;
