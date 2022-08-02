@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+        }
+        div:hover{
+            color: blue;
+        }
+        div > p.txt{
+            display: none;
+        }
+        div:hover > p.txt {
+            display: block;
+            background-color: red;
+            color: white;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>adicionando hover</h1>
+    <h2>escondendo texto</h2>
+    <div>
+        <p>Passe o mouse aqui</p>
+        <p class="txt">ESTE TEXTO FOI ESCONDIDO PELO HOVER</p>
+    </div>
+    <p>fim</p>
+</body>
+</html>
