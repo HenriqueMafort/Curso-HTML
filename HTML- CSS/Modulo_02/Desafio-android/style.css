@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    margin: 0px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #227847, #3BD27F, #3BD27F,  #227847);
+    
+}
+header > p {
+    text-align: center;
+    margin: 30px;
+}
+header > h1{
+    text-align: center;
+    font-weight: bold;
+}
+nav{
+    margin-left: 10px;
+    
+}
+nav > a{
+    margin-right: 20px;
+    font-weight: bold;
+    
+}
+body{
+    background-color: #84e1ad;
+}
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+    padding: 10px;
+    text-indent: 20px;
+}
+li{
+    margin-left: 30px;
+}
