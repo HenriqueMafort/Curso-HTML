@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'android';
+    src: url('id.otf') format('opentype'),
+    url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
+
 header{
     margin: 0px;
     padding-top: 20px;
@@ -16,26 +25,127 @@ header > p {
 header > h1{
     text-align: center;
     font-weight: bold;
+    font-family: 'android';
 }
+
+
 nav{
     margin-left: 10px;
     
-}
+    bottom: 0;
+    margin-top: 10px;
+}*
+
 nav > a{
-    margin-right: 20px;
+    height: 50px;
+    padding: 8px 5px  0 5px;
+    margin-right: 0px;
     font-weight: bold;
-    
+    color: white;
+    text-decoration: none;
+}*
+nav a:hover{
+    text-decoration: underline;
+    background-color: #9eeac0;
+    border-radius: 5px 5px 2px 2px;
 }
 body{
-    background-color: #84e1ad;
+    background-color: #6ab78c;
 }
 main{
     margin-left: 150px;
     margin-right: 150px;
+    margin-top: 0px;
     background-color: white;
-    padding: 10px;
+    padding: 1px;
     text-indent: 20px;
+    margin-bottom: 15px;
+    border-radius: 0px 0px 20px 20px;
 }
+
+.linkparagrafo{
+    color: #3BD27F;
+}
+section > p {
+    margin-left: 10px;
+}
+section > h1,h2,h3{
+    font-family: 'android';
+    margin: 20px;
+    
+}
+h2, h3{
+    background-image: linear-gradient(to right, #3BD27F,  white);
+}
+.droids{
+    margin: 12px;
+    width: 95%;
+}
+
+.irina{
+    margin: 12px;
+    width: 95%;
+}
+
+p > a{
+    color: #227847;
+    font-weight: bold;
+}
+.bugdroid{
+    width: 30%;
+}
+.video{
+    width: 90%;
+    height: 90%;
+    margin: 20px;
+    
+}
+.vdeo{
+    background-color: #227847;
+    height: 500px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.457);
+}
+
 li{
-    margin-left: 30px;
+    list-style-type:'✓';
+}
+.lista{
+    background-color: #9eeac0;
+    border-radius: 15px;
+    width: 95%;
+    margin: auto;
+    margin: 20px 20px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.457);
+}
+.titulo-lista{
+    background-image: none;
+    background-color: #3BD27F;
+    margin: 0px;
+    border-radius: 15px 15px 0 0;
+    
+    
+}
+footer > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5dae80;
+}
+footer{
+    background-color: #227847;
+}
+p > .negrito{
+    font-weight: bold;
+    color: white;
+}
+
+
+div.container{
+    margin-left: 0px;
+}
+div.container > p{
+    margin-left: 16px;
+    
+}
+section.lista > p{
+    margin-left: 16px;
 }
