@@ -7,6 +7,11 @@
     src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
 
 /*
 #c5ebd6
@@ -33,13 +38,40 @@
 body{
     background-color: #c5ebd6;
     font-family: var(--fonte-padrao);
+    
 }
+header{
+    background-color: var(--cor4);
 
+   
+}
 header > h1{
-    color: var(--cor5);
+    color: white;
     font-family: var(--fonte-destaque);
+    text-align: center;
+}
+header  p {
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: var(--cor5);
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    
+    max-width: 600px;
+    min-width: 280px;
+    margin: auto;
 }
 
+.irina, .bugdroid{
+width: 100%;
+}
 main h1{
     color: var(--cor5);
     font-family: var(--font-android);
@@ -48,4 +80,9 @@ main h1{
 main h2{
     font-family: var(--font-android);
     color: var(--cor5);
+}
+footer{
+    background-color: var(--cor5);
+    color: white;
+
 }
