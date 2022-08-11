@@ -155,7 +155,7 @@ main h2{
     padding-bottom: 57%;
     position: relative;
 }
-.video > iframe{
+.video iframe{
    position: absolute;
    top: 5%;
    left: 6%;
