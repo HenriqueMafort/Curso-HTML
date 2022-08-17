@@ -1,7 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
+
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,17 +11,88 @@
     --fonte3: 'Sriracha', cursive;
 }
 header{
-    font: var(--fonte2);
-    font-size: 5vw;
+   padding-top: 50px;
+   font-size: 3vw;
     text-align: center;
     background-color: black;
     color: white;
+    height: 15vw;
+}
+header p {
+font-size: 20px;
+
+}
+ h1{
+    
+    font-family: var(--fonte1);
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: 5vw;
 }
 
 header a{
     text-decoration: none;
     color: white;
     font-weight: bolder;
-    font-size: 1em;
+    font-size: 1.5vw;
     
+}
+.autor{
+    font-size: 14px;
+    margin: 15px;
+}
+.primeiro-paragrafo{
+    margin-top: 30px;
+}
+section p {
+    padding-bottom: 50px;
+    font-family: var(--fonte2);
+    font-style: italic;
+    font-weight: bolder;
+    line-height: 2em;
+     }
+section  {
+    
+    font-size: 3vw;
+    margin: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.segundo-paragrafo{
+    background-image: url('../imagens/background001.jpg');
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+.segundo-paragrafo p {
+    background-color: rgba(0, 0, 0, 0.288);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    color: white;
+    display: inline-block;
+   
+}
+
+.quarto-paragrafo{
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+
+.quarto-paragrafo p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
 }
