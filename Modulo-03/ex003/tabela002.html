@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas Grandes</title>
     <style>
-       
+        
+       *{
+        
+       }
         
         body{
             
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
-            width: 500px;
+            width: 400px;
             border-collapse: collapse;
+            position: relative;
            
             
         }
@@ -27,18 +31,43 @@
             background-color: gray;
             color: white;
         }
+
+        thead > tr > th{
+            position: sticky;
+            background-color: gray ;
+            top: -1px;
+
+
+        }
         .num{
             text-align: right;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        caption{
+            font-size: 1.0em;
+            font-weight: bold;
+            background-color: rgba(159, 159, 159, 0.459);
+           
+           
+            
+        }
+        .populacao{
+            width: 100px;
         }
     </style>
 </head>
 <body>
     <h1>uso de tabelas grantes</h1>
     <table>
+        <caption>
+            <p>População das Unidades Federativas</p>
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" class="populacao">População</th>
 
             </tr>
         </thead>
@@ -55,6 +84,136 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17 264 943</td>
             </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+
             <tr>
                 <td> Bahia</td>
                 <td class="num">14 016 906</td>
@@ -93,5 +252,16 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab hic, nesciunt sint blanditiis nostrum consequuntur expedita unde voluptatibus, sit perspiciatis rem, repellat perferendis illo neque veritatis? Totam, sunt corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates labore ullam earum! Quis nesciunt quidem ducimus architecto quisquam. Dolore, itaque neque! Debitis neque voluptas velit, consequuntur qui numquam autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quibusdam architecto veritatis ab ex inventore, quidem fuga nobis molestias sed nihil corrupti repellendus laboriosam adipisci natus quasi eius tenetur ut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo reiciendis fuga illum quia, ducimus accusantium a exercitationem mollitia ullam atque nihil architecto quas corporis iste itaque non harum quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab hic, nesciunt sint blanditiis nostrum consequuntur expedita unde voluptatibus, sit perspiciatis rem, repellat perferendis illo neque veritatis? Totam, sunt corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates labore ullam earum! Quis nesciunt quidem ducimus architecto quisquam. Dolore, itaque neque! Debitis neque voluptas velit, consequuntur qui numquam autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quibusdam architecto veritatis ab ex inventore, quidem fuga nobis molestias sed nihil corrupti repellendus laboriosam adipisci natus quasi eius tenetur ut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo reiciendis fuga illum quia, ducimus accusantium a exercitationem mollitia ullam atque nihil architecto quas corporis iste itaque non harum quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab hic, nesciunt sint blanditiis nostrum consequuntur expedita unde voluptatibus, sit perspiciatis rem, repellat perferendis illo neque veritatis? Totam, sunt corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates labore ullam earum! Quis nesciunt quidem ducimus architecto quisquam. Dolore, itaque neque! Debitis neque voluptas velit, consequuntur qui numquam autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quibusdam architecto veritatis ab ex inventore, quidem fuga nobis molestias sed nihil corrupti repellendus laboriosam adipisci natus quasi eius tenetur ut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo reiciendis fuga illum quia, ducimus accusantium a exercitationem mollitia ullam atque nihil architecto quas corporis iste itaque non harum quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab hic, nesciunt sint blanditiis nostrum consequuntur expedita unde voluptatibus, sit perspiciatis rem, repellat perferendis illo neque veritatis? Totam, sunt corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates labore ullam earum! Quis nesciunt quidem ducimus architecto quisquam. Dolore, itaque neque! Debitis neque voluptas velit, consequuntur qui numquam autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quibusdam architecto veritatis ab ex inventore, quidem fuga nobis molestias sed nihil corrupti repellendus laboriosam adipisci natus quasi eius tenetur ut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo reiciendis fuga illum quia, ducimus accusantium a exercitationem mollitia ullam atque nihil architecto quas corporis iste itaque non harum quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab hic, nesciunt sint blanditiis nostrum consequuntur expedita unde voluptatibus, sit perspiciatis rem, repellat perferendis illo neque veritatis? Totam, sunt corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates labore ullam earum! Quis nesciunt quidem ducimus architecto quisquam. Dolore, itaque neque! Debitis neque voluptas velit, consequuntur qui numquam autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quibusdam architecto veritatis ab ex inventore, quidem fuga nobis molestias sed nihil corrupti repellendus laboriosam adipisci natus quasi eius tenetur ut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo reiciendis fuga illum quia, ducimus accusantium a exercitationem mollitia ullam atque nihil architecto quas corporis iste itaque non harum quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab hic, nesciunt sint blanditiis nostrum consequuntur expedita unde voluptatibus, sit perspiciatis rem, repellat perferendis illo neque veritatis? Totam, sunt corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates labore ullam earum! Quis nesciunt quidem ducimus architecto quisquam. Dolore, itaque neque! Debitis neque voluptas velit, consequuntur qui numquam autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quibusdam architecto veritatis ab ex inventore, quidem fuga nobis molestias sed nihil corrupti repellendus laboriosam adipisci natus quasi eius tenetur ut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo reiciendis fuga illum quia, ducimus accusantium a exercitationem mollitia ullam atque nihil architecto quas corporis iste itaque non harum quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab hic, nesciunt sint blanditiis nostrum consequuntur expedita unde voluptatibus, sit perspiciatis rem, repellat perferendis illo neque veritatis? Totam, sunt corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates labore ullam earum! Quis nesciunt quidem ducimus architecto quisquam. Dolore, itaque neque! Debitis neque voluptas velit, consequuntur qui numquam autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quibusdam architecto veritatis ab ex inventore, quidem fuga nobis molestias sed nihil corrupti repellendus laboriosam adipisci natus quasi eius tenetur ut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo reiciendis fuga illum quia, ducimus accusantium a exercitationem mollitia ullam atque nihil architecto quas corporis iste itaque non harum quae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab hic, nesciunt sint blanditiis nostrum consequuntur expedita unde voluptatibus, sit perspiciatis rem, repellat perferendis illo neque veritatis? Totam, sunt corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates labore ullam earum! Quis nesciunt quidem ducimus architecto quisquam. Dolore, itaque neque! Debitis neque voluptas velit, consequuntur qui numquam autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quibusdam architecto veritatis ab ex inventore, quidem fuga nobis molestias sed nihil corrupti repellendus laboriosam adipisci natus quasi eius tenetur ut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo reiciendis fuga illum quia, ducimus accusantium a exercitationem mollitia ullam atque nihil architecto quas corporis iste itaque non harum quae.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab hic, nesciunt sint blanditiis nostrum consequuntur expedita unde voluptatibus, sit perspiciatis rem, repellat perferendis illo neque veritatis? Totam, sunt corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates labore ullam earum! Quis nesciunt quidem ducimus architecto quisquam. Dolore, itaque neque! Debitis neque voluptas velit, consequuntur qui numquam autem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quibusdam architecto veritatis ab ex inventore, quidem fuga nobis molestias sed nihil corrupti repellendus laboriosam adipisci natus quasi eius tenetur ut! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, explicabo reiciendis fuga illum quia, ducimus accusantium a exercitationem mollitia ullam atque nihil architecto quas corporis iste itaque non harum quae.</p>
+
 </body>
 </html>
