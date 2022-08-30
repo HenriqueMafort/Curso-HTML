@@ -1,0 +1,18 @@
+body{
+    background-image: url('/imagens/fundo-madeira.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.celular{
+    height: 650px;
+    width: 400px;
+    display: block;
+    position: relative;
+    margin: auto;  
+}
+
+.instagram{
+    text-decoration: none;
+}
