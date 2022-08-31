@@ -1,23 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
     background-image: url('/Desafios/Desafio13/imagens/fundo-madeira.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     list-style: none;
+    overflow: hidden;
     
 }
 
-.celular{
-    height: 600px;
-    width: 400px;
+img.celular{
+    margin: auto;
     display: block;
+    height: 480px;
+    width: 250px;
     position: relative;
-    margin: auto;  
+    bottom: 30px;
 }
+
 
 ul{
     position: relative;
-    left: 90vw;
+    left: 95vw;
     top: 10vh;
 }
 
@@ -28,7 +37,22 @@ a{
     color: white;
 }
 
-img#instagram{
+img.icons{
     width: 40px;
-    border-radius: 25%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.tela{
+    position: relative;
+    bottom: 70vh;
+    height: 300px;
+    left: 40vw;
+}
+.home{
+    position: relative;
+    bottom: 71.5vh;
+    height: 358px;
+    width: 211px;
+    left: 42.3vw;
 }
