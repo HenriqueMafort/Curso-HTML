@@ -1,58 +1,65 @@
+@charset "UTF-8";
 *{
     margin: 0px;
     padding: 0px;
 }
 
+body, html{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
 
 body{
-    background-image: url('/Desafios/Desafio13/imagens/fundo-madeira.jpg');
+    position: absolute;
+    background: url('../imagens/fundo-madeira.jpg');
+    background-repeat: no-repeat top center;
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    list-style: none;
-    overflow: hidden;
+}
+main{
+    position: relative;
+    height: 98vh;
+    
+   
+}
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 250px;
+    height: 504px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
     
 }
-
-img.celular{
-    margin: auto;
-    display: block;
-    height: 480px;
-    width: 250px;
+#telefone > iframe{
+    width: 213px;
+    height: 376px;
     position: relative;
-    bottom: 30px;
+    top: 65px;
+    left: 18px;
 }
+section#botoes{
+    position: right;
+    width: 100px;
+    height: 100vh;
 
-
-ul{
-    position: relative;
-    left: 95vw;
+}
+li > .icons{
+    width: 50px;
+    position: absolute;
+    left: 92vw;
     top: 10vh;
-}
+    transform: translate(-50% -50%);
+    overflow: hidden;
 
-li{
-    list-style: none;   
-}
-a{
-    color: white;
-}
 
-img.icons{
-    width: 40px;
-    margin-bottom: 10px;
-    border-radius: 50%;
 }
-
-.tela{
+#tela{
     position: relative;
-    bottom: 70vh;
-    height: 300px;
-    left: 40vw;
-}
-.home{
-    position: relative;
-    bottom: 71.5vh;
-    height: 358px;
-    width: 211px;
-    left: 42.3vw;
+    top: 50px;
+    left: 23px;
 }
