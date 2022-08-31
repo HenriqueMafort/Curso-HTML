@@ -37,26 +37,31 @@ section#telefone{
 }
 #telefone > iframe{
     width: 213px;
-    height: 376px;
+    height: 377px;
     position: relative;
     top: 65px;
-    left: 18px;
+    left: 19px;
 }
+
 section#botoes{
     position: right;
     width: 100px;
     height: 100vh;
 
 }
-li > .icons{
+li  .icons{
     width: 50px;
     position: absolute;
     left: 92vw;
     top: 10vh;
     transform: translate(-50% -50%);
     overflow: hidden;
+    border-radius: 50%;
 
 
+}
+.icons:hover{
+    
 }
 #tela{
     position: relative;
