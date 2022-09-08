@@ -9,31 +9,33 @@
 <body>
     <h1>Média do aluno</h1>
 <form action="" autocomplete="on" method="post">
-    <p>
-        <label for="inome">Nome: </label>
-        <input type="text" name="nome" id="inome" required autocomplete="name" size="15" placeholder="Digite seu nome">
-    </p>
-    <p>
-        <label for="imedia">Média:</label>
-        <input type="number" name="media" id="imedia" min="0" max="10"
-       placeholder="0 a 10" step="0.1" required>
-    </p>
-    <p>
-        <label for="iperiodo">Periodo Letivo</label>
-        <input type="month" name="Periodo" id="iperiodo">
-    </p>
-    <p>
-        <label for="idiaprova">Dia da prova: </label>
-        <input type="date" name="dataprova" id="idataprova">
-    </p>
-    <p>
-        <label for="ihora">Hora da Prova</label>
-        <input type="time" name="horadaprova" id="ihora">
-    </p>
-    <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Resetar">
-    </p>
+    <fieldset>
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required autocomplete="name" size="15" placeholder="Digite seu nome">
+        </p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10"
+           placeholder="0 a 10" step="0.1" required>
+        </p>
+        <p>
+            <label for="iperiodo">Periodo Letivo</label>
+            <input type="month" name="Periodo" id="iperiodo">
+        </p>
+        <p>
+            <label for="idiaprova">Dia da prova: </label>
+            <input type="date" name="dataprova" id="idataprova">
+        </p>
+        <p>
+            <label for="ihora">Hora da Prova</label>
+            <input type="time" name="horadaprova" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+    </fieldset>
 
 </form>
 </body>
