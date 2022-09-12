@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*Estilos para tela*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1{
+
+    text-align: center;
+}
+
+menu{
+    margin: 0px;
+   list-style: none;
+   background-color: lightgray;
+
+}
+menu li {
+    margin: 0px;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+menu li:hover{
+    background-color: rgba(112, 112, 112, 0.475);
+}
+
+body h1, p{
+    text-align: justify;
+    margin: 15px;
+    size: 1em;
+    line-height: 1.5em;
+
+}
+
