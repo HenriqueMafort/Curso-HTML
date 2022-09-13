@@ -3,6 +3,8 @@
 /*PAISAGEM LANDSCAPE*/
 
 body{
-    background: url(../imagens/cev-landscape.jpg)center top no-repeat;
+    background: url(../imagens/cev-landscape.jpg) no-repeat;
+    background-position: left bottom;
+    background-size: 50%;
     
 }

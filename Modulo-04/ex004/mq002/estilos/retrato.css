@@ -3,6 +3,7 @@
 /* retrato portrait*/
 
 body{
-    background: url(../imagens/cev-portrait.jpg) center top no-repeat;
-   
+    background: url(../imagens/cev-portrait.jpg) no-repeat;
+    background-position: center bottom;
+    background-size: 50%;
 }
